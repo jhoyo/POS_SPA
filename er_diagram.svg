@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1535" height="1245" viewBox="0 0 1535 1245">
+<rect width="1535" height="1245" fill="#EEF0F3"/>
+<rect width="1535" height="52" fill="#2C3E50"/>
+<text x="768" y="33" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Diagrama Entidad-Relación — Sistema POS Spa Facial</text>
+<g id="relationships">
+<defs><marker id="arr_categorias_productos" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#27AE60"/></marker></defs>
+<path d="M457.5,195.0 C457.5,252.8 457.5,302.2 457.5,360.0" fill="none" stroke="#27AE60" stroke-width="1.5" stroke-opacity="0.60" marker-end="url(#arr_categorias_productos)"/>
+<rect x="426.5" y="268.5" width="62" height="13" rx="3" fill="white" opacity="0.88"/>
+<text x="457.5" y="277.5" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#27AE60" text-anchor="middle" font-weight="bold">clasifica</text>
+<defs><marker id="arr_usuarios_apertura_caja" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#2980B9"/></marker></defs>
+<path d="M157.5,295.0 C157.5,317.8 157.5,337.2 157.5,360.0" fill="none" stroke="#2980B9" stroke-width="1.5" stroke-opacity="0.60" marker-end="url(#arr_usuarios_apertura_caja)"/>
+<rect x="137.5" y="318.5" width="40" height="13" rx="3" fill="white" opacity="0.88"/>
+<text x="157.5" y="327.5" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#2980B9" text-anchor="middle" font-weight="bold">abre</text>
+<defs><marker id="arr_apertura_caja_ventas" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#E67E22"/></marker></defs>
+<path d="M285.0,445.0 C525.0,445.0 390.0,535.0 630.0,535.0" fill="none" stroke="#E67E22" stroke-width="1.5" stroke-opacity="0.60" marker-end="url(#arr_apertura_caja_ventas)"/>
+<rect x="429.5" y="481.0" width="56" height="13" rx="3" fill="white" opacity="0.88"/>
+<text x="457.5" y="490.0" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#E67E22" text-anchor="middle" font-weight="bold">contiene</text>
+<defs><marker id="arr_usuarios_ventas" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#2980B9"/></marker></defs>
+<path d="M285.0,180.0 C525.0,180.0 390.0,535.0 630.0,535.0" fill="none" stroke="#2980B9" stroke-width="1.5" stroke-opacity="0.60" marker-end="url(#arr_usuarios_ventas)"/>
+<rect x="429.5" y="348.5" width="56" height="13" rx="3" fill="white" opacity="0.88"/>
+<text x="457.5" y="357.5" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#2980B9" text-anchor="middle" font-weight="bold">registra</text>
+<defs><marker id="arr_ventas_detalle_venta" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#C0392B"/></marker></defs>
+<path d="M885.0,535.0 C1005.0,535.0 810.0,475.0 930.0,475.0" fill="none" stroke="#C0392B" stroke-width="1.5" stroke-opacity="0.60" marker-end="url(#arr_ventas_detalle_venta)"/>
+<rect x="887.5" y="496.0" width="40" height="13" rx="3" fill="white" opacity="0.88"/>
+<text x="907.5" y="505.0" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#C0392B" text-anchor="middle" font-weight="bold">tiene</text>
+<defs><marker id="arr_ventas_pagos_venta" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#C0392B"/></marker></defs>
+<path d="M885.0,535.0 C1125.0,535.0 990.0,425.0 1230.0,425.0" fill="none" stroke="#C0392B" stroke-width="1.5" stroke-opacity="0.60" marker-end="url(#arr_ventas_pagos_venta)"/>
+<rect x="1029.5" y="471.0" width="56" height="13" rx="3" fill="white" opacity="0.88"/>
+<text x="1057.5" y="480.0" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#C0392B" text-anchor="middle" font-weight="bold">paga con</text>
+<defs><marker id="arr_productos_detalle_venta" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#16A085"/></marker></defs>
+<path d="M585.0,515.0 C825.0,515.0 690.0,475.0 930.0,475.0" fill="none" stroke="#16A085" stroke-width="1.5" stroke-opacity="0.60" marker-end="url(#arr_productos_detalle_venta)"/>
+<rect x="723.5" y="486.0" width="68" height="13" rx="3" fill="white" opacity="0.88"/>
+<text x="757.5" y="495.0" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#16A085" text-anchor="middle" font-weight="bold">aparece en</text>
+<defs><marker id="arr_apertura_caja_corte_caja" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#E67E22"/></marker></defs>
+<path d="M157.5,530.0 C157.5,615.8 157.5,689.2 157.5,775.0" fill="none" stroke="#E67E22" stroke-width="1.5" stroke-opacity="0.60" marker-end="url(#arr_apertura_caja_corte_caja)"/>
+<rect x="135.5" y="643.5" width="44" height="13" rx="3" fill="white" opacity="0.88"/>
+<text x="157.5" y="652.5" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#E67E22" text-anchor="middle" font-weight="bold">genera</text>
+<defs><marker id="arr_usuarios_corte_caja" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#2980B9"/></marker></defs>
+<path d="M157.5,295.0 C157.5,463.0 157.5,607.0 157.5,775.0" fill="none" stroke="#2980B9" stroke-width="1.5" stroke-opacity="0.60" marker-end="url(#arr_usuarios_corte_caja)"/>
+<rect x="132.5" y="526.0" width="50" height="13" rx="3" fill="white" opacity="0.88"/>
+<text x="157.5" y="535.0" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#2980B9" text-anchor="middle" font-weight="bold">realiza</text>
+<defs><marker id="arr_productos_movimientos_inventario" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#16A085"/></marker></defs>
+<path d="M457.5,670.0 C457.5,706.8 457.5,738.2 457.5,775.0" fill="none" stroke="#16A085" stroke-width="1.5" stroke-opacity="0.60" marker-end="url(#arr_productos_movimientos_inventario)"/>
+<rect x="411.5" y="713.5" width="92" height="13" rx="3" fill="white" opacity="0.88"/>
+<text x="457.5" y="722.5" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#16A085" text-anchor="middle" font-weight="bold">registra stock</text>
+<defs><marker id="arr_usuarios_movimientos_inventario" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#2980B9"/></marker></defs>
+<path d="M157.5,295.0 C247.5,475.0 367.5,595.0 457.5,775.0" fill="none" stroke="#2980B9" stroke-width="1.5" stroke-opacity="0.60" marker-end="url(#arr_usuarios_movimientos_inventario)"/>
+<rect x="282.5" y="526.0" width="50" height="13" rx="3" fill="white" opacity="0.88"/>
+<text x="307.5" y="535.0" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#2980B9" text-anchor="middle" font-weight="bold">ejecuta</text>
+<defs><marker id="arr_ventas_movimientos_inventario" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#C0392B"/></marker></defs>
+<path d="M630.0,535.0 C510.0,535.0 705.0,900.0 585.0,900.0" fill="none" stroke="#C0392B" stroke-width="1.5" stroke-opacity="0.60" marker-end="url(#arr_ventas_movimientos_inventario)"/>
+<rect x="582.5" y="708.5" width="50" height="13" rx="3" fill="white" opacity="0.88"/>
+<text x="607.5" y="717.5" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#C0392B" text-anchor="middle" font-weight="bold">origina</text>
+<defs><marker id="arr_usuarios_log_auditoria" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#2980B9"/></marker></defs>
+<path d="M285.0,180.0 C645.0,180.0 570.0,860.0 930.0,860.0" fill="none" stroke="#2980B9" stroke-width="1.5" stroke-opacity="0.60" marker-end="url(#arr_usuarios_log_auditoria)"/>
+<rect x="585.5" y="511.0" width="44" height="13" rx="3" fill="white" opacity="0.88"/>
+<text x="607.5" y="520.0" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#2980B9" text-anchor="middle" font-weight="bold">genera</text>
+</g>
+<g id="tables">
+<rect x="1234" y="69" width="255" height="90" rx="5" fill="rgba(0,0,0,0.10)"/>
+<rect x="1230" y="65" width="255" height="90" rx="5" fill="white" stroke="#636E72" stroke-width="1.5"/>
+<rect x="1230" y="65" width="255" height="30" rx="5" fill="#636E72"/>
+<rect x="1230" y="90" width="255" height="5" fill="#636E72"/>
+<text x="1357.5" y="85.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">configuracion</text>
+<rect x="1231" y="95" width="253" height="20" fill="#EFF0F0"/>
+<rect x="1455" y="98" width="24" height="13" rx="3" fill="#F39C12"/>
+<text x="1467" y="108" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">PK</text>
+<text x="1236" y="109" font-family="Consolas, 'Courier New', monospace" font-size="10" font-weight="bold" fill="#2C3E50">clave</text>
+<text x="1451" y="109" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="1231" y1="115" x2="1484" y2="115" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="1231" y="115" width="253" height="20" fill="#F7F7F7"/>
+<text x="1236" y="129" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">valor</text>
+<text x="1480" y="129" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="1231" y1="135" x2="1484" y2="135" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="1231" y="135" width="253" height="20" rx="4" fill="#EFF0F0"/>
+<text x="1236" y="149" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">descripcion</text>
+<text x="1480" y="149" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<rect x="334" y="69" width="255" height="130" rx="5" fill="rgba(0,0,0,0.10)"/>
+<rect x="330" y="65" width="255" height="130" rx="5" fill="white" stroke="#27AE60" stroke-width="1.5"/>
+<rect x="330" y="65" width="255" height="30" rx="5" fill="#27AE60"/>
+<rect x="330" y="90" width="255" height="5" fill="#27AE60"/>
+<text x="457.5" y="85.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">categorias</text>
+<rect x="331" y="95" width="253" height="20" fill="#E9F6EF"/>
+<rect x="555" y="98" width="24" height="13" rx="3" fill="#F39C12"/>
+<text x="567" y="108" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">PK</text>
+<text x="336" y="109" font-family="Consolas, 'Courier New', monospace" font-size="10" font-weight="bold" fill="#2C3E50">id_categoria</text>
+<text x="551" y="109" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="331" y1="115" x2="584" y2="115" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="115" width="253" height="20" fill="#F4FAF7"/>
+<text x="336" y="129" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">nombre</text>
+<text x="580" y="129" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="331" y1="135" x2="584" y2="135" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="135" width="253" height="20" fill="#E9F6EF"/>
+<text x="336" y="149" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">descripcion</text>
+<text x="580" y="149" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="331" y1="155" x2="584" y2="155" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="155" width="253" height="20" fill="#F4FAF7"/>
+<text x="336" y="169" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">activo</text>
+<text x="580" y="169" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="331" y1="175" x2="584" y2="175" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="175" width="253" height="20" rx="4" fill="#E9F6EF"/>
+<text x="336" y="189" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">creado_en</text>
+<text x="580" y="189" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<rect x="34" y="69" width="255" height="230" rx="5" fill="rgba(0,0,0,0.10)"/>
+<rect x="30" y="65" width="255" height="230" rx="5" fill="white" stroke="#2980B9" stroke-width="1.5"/>
+<rect x="30" y="65" width="255" height="30" rx="5" fill="#2980B9"/>
+<rect x="30" y="90" width="255" height="5" fill="#2980B9"/>
+<text x="157.5" y="85.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">usuarios</text>
+<rect x="31" y="95" width="253" height="20" fill="#E9F2F8"/>
+<rect x="255" y="98" width="24" height="13" rx="3" fill="#F39C12"/>
+<text x="267" y="108" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">PK</text>
+<text x="36" y="109" font-family="Consolas, 'Courier New', monospace" font-size="10" font-weight="bold" fill="#2C3E50">id_usuario</text>
+<text x="251" y="109" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="31" y1="115" x2="284" y2="115" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="115" width="253" height="20" fill="#F4F8FB"/>
+<text x="36" y="129" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">nombre</text>
+<text x="280" y="129" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="31" y1="135" x2="284" y2="135" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="135" width="253" height="20" fill="#E9F2F8"/>
+<rect x="255" y="138" width="24" height="13" rx="3" fill="#3498DB"/>
+<text x="267" y="148" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">UK</text>
+<text x="36" y="149" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">usuario</text>
+<text x="251" y="149" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="31" y1="155" x2="284" y2="155" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="155" width="253" height="20" fill="#F4F8FB"/>
+<text x="36" y="169" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">pin_hash</text>
+<text x="280" y="169" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="31" y1="175" x2="284" y2="175" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="175" width="253" height="20" fill="#E9F2F8"/>
+<text x="36" y="189" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">rol</text>
+<text x="280" y="189" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="31" y1="195" x2="284" y2="195" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="195" width="253" height="20" fill="#F4F8FB"/>
+<text x="36" y="209" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">activo</text>
+<text x="280" y="209" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="31" y1="215" x2="284" y2="215" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="215" width="253" height="20" fill="#E9F2F8"/>
+<text x="36" y="229" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">intentos_fallidos</text>
+<text x="280" y="229" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="31" y1="235" x2="284" y2="235" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="235" width="253" height="20" fill="#F4F8FB"/>
+<text x="36" y="249" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">bloqueado_hasta</text>
+<text x="280" y="249" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="31" y1="255" x2="284" y2="255" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="255" width="253" height="20" fill="#E9F2F8"/>
+<text x="36" y="269" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">creado_en</text>
+<text x="280" y="269" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="31" y1="275" x2="284" y2="275" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="275" width="253" height="20" rx="4" fill="#F4F8FB"/>
+<text x="36" y="289" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">actualizado_en</text>
+<text x="280" y="289" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<rect x="334" y="364" width="255" height="310" rx="5" fill="rgba(0,0,0,0.10)"/>
+<rect x="330" y="360" width="255" height="310" rx="5" fill="white" stroke="#16A085" stroke-width="1.5"/>
+<rect x="330" y="360" width="255" height="30" rx="5" fill="#16A085"/>
+<rect x="330" y="385" width="255" height="5" fill="#16A085"/>
+<text x="457.5" y="380.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">productos</text>
+<rect x="331" y="390" width="253" height="20" fill="#E7F5F2"/>
+<rect x="555" y="393" width="24" height="13" rx="3" fill="#F39C12"/>
+<text x="567" y="403" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">PK</text>
+<text x="336" y="404" font-family="Consolas, 'Courier New', monospace" font-size="10" font-weight="bold" fill="#2C3E50">id_producto</text>
+<text x="551" y="404" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="331" y1="410" x2="584" y2="410" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="410" width="253" height="20" fill="#F3FAF8"/>
+<rect x="555" y="413" width="24" height="13" rx="3" fill="#3498DB"/>
+<text x="567" y="423" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">UK</text>
+<text x="336" y="424" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">sku</text>
+<text x="551" y="424" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="331" y1="430" x2="584" y2="430" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="430" width="253" height="20" fill="#E7F5F2"/>
+<rect x="555" y="433" width="24" height="13" rx="3" fill="#3498DB"/>
+<text x="567" y="443" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">UK</text>
+<text x="336" y="444" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">codigo_barras</text>
+<text x="551" y="444" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="331" y1="450" x2="584" y2="450" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="450" width="253" height="20" fill="#F3FAF8"/>
+<text x="336" y="464" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">nombre</text>
+<text x="580" y="464" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="331" y1="470" x2="584" y2="470" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="470" width="253" height="20" fill="#E7F5F2"/>
+<text x="336" y="484" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">descripcion</text>
+<text x="580" y="484" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="331" y1="490" x2="584" y2="490" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="490" width="253" height="20" fill="#F3FAF8"/>
+<rect x="555" y="493" width="24" height="13" rx="3" fill="#E74C3C"/>
+<text x="567" y="503" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">FK</text>
+<text x="336" y="504" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">id_categoria</text>
+<text x="551" y="504" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="331" y1="510" x2="584" y2="510" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="510" width="253" height="20" fill="#E7F5F2"/>
+<text x="336" y="524" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">precio_venta</text>
+<text x="580" y="524" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="331" y1="530" x2="584" y2="530" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="530" width="253" height="20" fill="#F3FAF8"/>
+<text x="336" y="544" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">costo_unitario</text>
+<text x="580" y="544" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="331" y1="550" x2="584" y2="550" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="550" width="253" height="20" fill="#E7F5F2"/>
+<text x="336" y="564" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">unidad_medida</text>
+<text x="580" y="564" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="331" y1="570" x2="584" y2="570" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="570" width="253" height="20" fill="#F3FAF8"/>
+<text x="336" y="584" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">stock_actual</text>
+<text x="580" y="584" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="331" y1="590" x2="584" y2="590" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="590" width="253" height="20" fill="#E7F5F2"/>
+<text x="336" y="604" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">stock_minimo</text>
+<text x="580" y="604" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="331" y1="610" x2="584" y2="610" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="610" width="253" height="20" fill="#F3FAF8"/>
+<text x="336" y="624" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">activo</text>
+<text x="580" y="624" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="331" y1="630" x2="584" y2="630" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="630" width="253" height="20" fill="#E7F5F2"/>
+<text x="336" y="644" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">creado_en</text>
+<text x="580" y="644" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="331" y1="650" x2="584" y2="650" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="650" width="253" height="20" rx="4" fill="#F3FAF8"/>
+<text x="336" y="664" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">actualizado_en</text>
+<text x="580" y="664" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<rect x="34" y="364" width="255" height="170" rx="5" fill="rgba(0,0,0,0.10)"/>
+<rect x="30" y="360" width="255" height="170" rx="5" fill="white" stroke="#E67E22" stroke-width="1.5"/>
+<rect x="30" y="360" width="255" height="30" rx="5" fill="#E67E22"/>
+<rect x="30" y="385" width="255" height="5" fill="#E67E22"/>
+<text x="157.5" y="380.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">apertura_caja</text>
+<rect x="31" y="390" width="253" height="20" fill="#FCF2E8"/>
+<rect x="255" y="393" width="24" height="13" rx="3" fill="#F39C12"/>
+<text x="267" y="403" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">PK</text>
+<text x="36" y="404" font-family="Consolas, 'Courier New', monospace" font-size="10" font-weight="bold" fill="#2C3E50">id_apertura</text>
+<text x="251" y="404" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="31" y1="410" x2="284" y2="410" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="410" width="253" height="20" fill="#FDF8F3"/>
+<rect x="255" y="413" width="24" height="13" rx="3" fill="#E74C3C"/>
+<text x="267" y="423" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">FK</text>
+<text x="36" y="424" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">id_usuario</text>
+<text x="251" y="424" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="31" y1="430" x2="284" y2="430" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="430" width="253" height="20" fill="#FCF2E8"/>
+<rect x="255" y="433" width="24" height="13" rx="3" fill="#E74C3C"/>
+<text x="267" y="443" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">FK</text>
+<text x="36" y="444" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">id_usuario_autorizo</text>
+<text x="251" y="444" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="31" y1="450" x2="284" y2="450" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="450" width="253" height="20" fill="#FDF8F3"/>
+<text x="36" y="464" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">fondo_inicial</text>
+<text x="280" y="464" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="31" y1="470" x2="284" y2="470" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="470" width="253" height="20" fill="#FCF2E8"/>
+<text x="36" y="484" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">fecha_apertura</text>
+<text x="280" y="484" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="31" y1="490" x2="284" y2="490" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="490" width="253" height="20" fill="#FDF8F3"/>
+<text x="36" y="504" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">estado</text>
+<text x="280" y="504" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="31" y1="510" x2="284" y2="510" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="510" width="253" height="20" rx="4" fill="#FCF2E8"/>
+<text x="36" y="524" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">observaciones</text>
+<text x="280" y="524" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<rect x="634" y="364" width="255" height="350" rx="5" fill="rgba(0,0,0,0.10)"/>
+<rect x="630" y="360" width="255" height="350" rx="5" fill="white" stroke="#C0392B" stroke-width="1.5"/>
+<rect x="630" y="360" width="255" height="30" rx="5" fill="#C0392B"/>
+<rect x="630" y="385" width="255" height="5" fill="#C0392B"/>
+<text x="757.5" y="380.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">ventas</text>
+<rect x="631" y="390" width="253" height="20" fill="#F8EBE9"/>
+<rect x="855" y="393" width="24" height="13" rx="3" fill="#F39C12"/>
+<text x="867" y="403" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">PK</text>
+<text x="636" y="404" font-family="Consolas, 'Courier New', monospace" font-size="10" font-weight="bold" fill="#2C3E50">id_venta</text>
+<text x="851" y="404" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="631" y1="410" x2="884" y2="410" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="631" y="410" width="253" height="20" fill="#FBF5F4"/>
+<rect x="855" y="413" width="24" height="13" rx="3" fill="#3498DB"/>
+<text x="867" y="423" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">UK</text>
+<text x="636" y="424" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">folio</text>
+<text x="851" y="424" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="631" y1="430" x2="884" y2="430" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="631" y="430" width="253" height="20" fill="#F8EBE9"/>
+<rect x="855" y="433" width="24" height="13" rx="3" fill="#E74C3C"/>
+<text x="867" y="443" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">FK</text>
+<text x="636" y="444" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">id_apertura</text>
+<text x="851" y="444" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="631" y1="450" x2="884" y2="450" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="631" y="450" width="253" height="20" fill="#FBF5F4"/>
+<rect x="855" y="453" width="24" height="13" rx="3" fill="#E74C3C"/>
+<text x="867" y="463" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">FK</text>
+<text x="636" y="464" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">id_cajero</text>
+<text x="851" y="464" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="631" y1="470" x2="884" y2="470" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="631" y="470" width="253" height="20" fill="#F8EBE9"/>
+<text x="636" y="484" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">fecha_hora</text>
+<text x="880" y="484" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="631" y1="490" x2="884" y2="490" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="631" y="490" width="253" height="20" fill="#FBF5F4"/>
+<text x="636" y="504" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">subtotal</text>
+<text x="880" y="504" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="631" y1="510" x2="884" y2="510" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="631" y="510" width="253" height="20" fill="#F8EBE9"/>
+<text x="636" y="524" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">iva</text>
+<text x="880" y="524" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="631" y1="530" x2="884" y2="530" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="631" y="530" width="253" height="20" fill="#FBF5F4"/>
+<text x="636" y="544" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">descuento_total</text>
+<text x="880" y="544" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="631" y1="550" x2="884" y2="550" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="631" y="550" width="253" height="20" fill="#F8EBE9"/>
+<text x="636" y="564" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">total</text>
+<text x="880" y="564" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="631" y1="570" x2="884" y2="570" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="631" y="570" width="253" height="20" fill="#FBF5F4"/>
+<text x="636" y="584" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">cambio</text>
+<text x="880" y="584" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="631" y1="590" x2="884" y2="590" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="631" y="590" width="253" height="20" fill="#F8EBE9"/>
+<text x="636" y="604" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">estado</text>
+<text x="880" y="604" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="631" y1="610" x2="884" y2="610" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="631" y="610" width="253" height="20" fill="#FBF5F4"/>
+<text x="636" y="624" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">ticket_impreso</text>
+<text x="880" y="624" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="631" y1="630" x2="884" y2="630" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="631" y="630" width="253" height="20" fill="#F8EBE9"/>
+<rect x="855" y="633" width="24" height="13" rx="3" fill="#E74C3C"/>
+<text x="867" y="643" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">FK</text>
+<text x="636" y="644" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">id_cajero_cancela</text>
+<text x="851" y="644" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="631" y1="650" x2="884" y2="650" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="631" y="650" width="253" height="20" fill="#FBF5F4"/>
+<text x="636" y="664" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">fecha_cancelacion</text>
+<text x="880" y="664" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="631" y1="670" x2="884" y2="670" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="631" y="670" width="253" height="20" fill="#F8EBE9"/>
+<text x="636" y="684" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">motivo_cancelacion</text>
+<text x="880" y="684" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="631" y1="690" x2="884" y2="690" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="631" y="690" width="253" height="20" rx="4" fill="#FBF5F4"/>
+<text x="636" y="704" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">creado_en</text>
+<text x="880" y="704" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<rect x="934" y="364" width="255" height="230" rx="5" fill="rgba(0,0,0,0.10)"/>
+<rect x="930" y="360" width="255" height="230" rx="5" fill="white" stroke="#8E44AD" stroke-width="1.5"/>
+<rect x="930" y="360" width="255" height="30" rx="5" fill="#8E44AD"/>
+<rect x="930" y="385" width="255" height="5" fill="#8E44AD"/>
+<text x="1057.5" y="380.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">detalle_venta</text>
+<rect x="931" y="390" width="253" height="20" fill="#F3ECF6"/>
+<rect x="1155" y="393" width="24" height="13" rx="3" fill="#F39C12"/>
+<text x="1167" y="403" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">PK</text>
+<text x="936" y="404" font-family="Consolas, 'Courier New', monospace" font-size="10" font-weight="bold" fill="#2C3E50">id_detalle</text>
+<text x="1151" y="404" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="931" y1="410" x2="1184" y2="410" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="931" y="410" width="253" height="20" fill="#F9F5FA"/>
+<rect x="1155" y="413" width="24" height="13" rx="3" fill="#E74C3C"/>
+<text x="1167" y="423" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">FK</text>
+<text x="936" y="424" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">id_venta</text>
+<text x="1151" y="424" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="931" y1="430" x2="1184" y2="430" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="931" y="430" width="253" height="20" fill="#F3ECF6"/>
+<rect x="1155" y="433" width="24" height="13" rx="3" fill="#E74C3C"/>
+<text x="1167" y="443" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">FK</text>
+<text x="936" y="444" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">id_producto</text>
+<text x="1151" y="444" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="931" y1="450" x2="1184" y2="450" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="931" y="450" width="253" height="20" fill="#F9F5FA"/>
+<text x="936" y="464" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">nombre_producto</text>
+<text x="1180" y="464" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="931" y1="470" x2="1184" y2="470" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="931" y="470" width="253" height="20" fill="#F3ECF6"/>
+<text x="936" y="484" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">precio_unitario</text>
+<text x="1180" y="484" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="931" y1="490" x2="1184" y2="490" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="931" y="490" width="253" height="20" fill="#F9F5FA"/>
+<text x="936" y="504" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">cantidad</text>
+<text x="1180" y="504" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="931" y1="510" x2="1184" y2="510" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="931" y="510" width="253" height="20" fill="#F3ECF6"/>
+<text x="936" y="524" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">descuento_pct</text>
+<text x="1180" y="524" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="931" y1="530" x2="1184" y2="530" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="931" y="530" width="253" height="20" fill="#F9F5FA"/>
+<text x="936" y="544" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">descuento_monto</text>
+<text x="1180" y="544" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="931" y1="550" x2="1184" y2="550" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="931" y="550" width="253" height="20" fill="#F3ECF6"/>
+<text x="936" y="564" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">subtotal</text>
+<text x="1180" y="564" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="931" y1="570" x2="1184" y2="570" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="931" y="570" width="253" height="20" rx="4" fill="#F9F5FA"/>
+<text x="936" y="584" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">iva_linea</text>
+<text x="1180" y="584" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<rect x="1234" y="364" width="255" height="130" rx="5" fill="rgba(0,0,0,0.10)"/>
+<rect x="1230" y="360" width="255" height="130" rx="5" fill="white" stroke="#1ABC9C" stroke-width="1.5"/>
+<rect x="1230" y="360" width="255" height="30" rx="5" fill="#1ABC9C"/>
+<rect x="1230" y="385" width="255" height="5" fill="#1ABC9C"/>
+<text x="1357.5" y="380.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">pagos_venta</text>
+<rect x="1231" y="390" width="253" height="20" fill="#E8F8F5"/>
+<rect x="1455" y="393" width="24" height="13" rx="3" fill="#F39C12"/>
+<text x="1467" y="403" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">PK</text>
+<text x="1236" y="404" font-family="Consolas, 'Courier New', monospace" font-size="10" font-weight="bold" fill="#2C3E50">id_pago</text>
+<text x="1451" y="404" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="1231" y1="410" x2="1484" y2="410" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="1231" y="410" width="253" height="20" fill="#F3FBFA"/>
+<rect x="1455" y="413" width="24" height="13" rx="3" fill="#E74C3C"/>
+<text x="1467" y="423" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">FK</text>
+<text x="1236" y="424" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">id_venta</text>
+<text x="1451" y="424" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="1231" y1="430" x2="1484" y2="430" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="1231" y="430" width="253" height="20" fill="#E8F8F5"/>
+<text x="1236" y="444" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">forma_pago</text>
+<text x="1480" y="444" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="1231" y1="450" x2="1484" y2="450" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="1231" y="450" width="253" height="20" fill="#F3FBFA"/>
+<text x="1236" y="464" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">monto</text>
+<text x="1480" y="464" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="1231" y1="470" x2="1484" y2="470" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="1231" y="470" width="253" height="20" rx="4" fill="#E8F8F5"/>
+<text x="1236" y="484" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">referencia</text>
+<text x="1480" y="484" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<rect x="34" y="779" width="255" height="370" rx="5" fill="rgba(0,0,0,0.10)"/>
+<rect x="30" y="775" width="255" height="370" rx="5" fill="white" stroke="#D35400" stroke-width="1.5"/>
+<rect x="30" y="775" width="255" height="30" rx="5" fill="#D35400"/>
+<rect x="30" y="800" width="255" height="5" fill="#D35400"/>
+<text x="157.5" y="795.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">corte_caja</text>
+<rect x="31" y="805" width="253" height="20" fill="#FAEDE5"/>
+<rect x="255" y="808" width="24" height="13" rx="3" fill="#F39C12"/>
+<text x="267" y="818" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">PK</text>
+<text x="36" y="819" font-family="Consolas, 'Courier New', monospace" font-size="10" font-weight="bold" fill="#2C3E50">id_corte</text>
+<text x="251" y="819" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="31" y1="825" x2="284" y2="825" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="825" width="253" height="20" fill="#FCF6F2"/>
+<rect x="255" y="828" width="24" height="13" rx="3" fill="#E74C3C"/>
+<text x="267" y="838" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">FK</text>
+<text x="36" y="839" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">id_apertura</text>
+<text x="251" y="839" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="31" y1="845" x2="284" y2="845" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="845" width="253" height="20" fill="#FAEDE5"/>
+<rect x="255" y="848" width="24" height="13" rx="3" fill="#E74C3C"/>
+<text x="267" y="858" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">FK</text>
+<text x="36" y="859" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">id_usuario</text>
+<text x="251" y="859" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="31" y1="865" x2="284" y2="865" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="865" width="253" height="20" fill="#FCF6F2"/>
+<text x="36" y="879" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">tipo</text>
+<text x="280" y="879" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="31" y1="885" x2="284" y2="885" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="885" width="253" height="20" fill="#FAEDE5"/>
+<text x="36" y="899" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">fecha_hora</text>
+<text x="280" y="899" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="31" y1="905" x2="284" y2="905" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="905" width="253" height="20" fill="#FCF6F2"/>
+<text x="36" y="919" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">total_efectivo</text>
+<text x="280" y="919" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="31" y1="925" x2="284" y2="925" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="925" width="253" height="20" fill="#FAEDE5"/>
+<text x="36" y="939" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">total_tarjeta</text>
+<text x="280" y="939" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="31" y1="945" x2="284" y2="945" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="945" width="253" height="20" fill="#FCF6F2"/>
+<text x="36" y="959" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">total_transferencia</text>
+<text x="280" y="959" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="31" y1="965" x2="284" y2="965" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="965" width="253" height="20" fill="#FAEDE5"/>
+<text x="36" y="979" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">total_ventas</text>
+<text x="280" y="979" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="31" y1="985" x2="284" y2="985" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="985" width="253" height="20" fill="#FCF6F2"/>
+<text x="36" y="999" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">total_descuentos</text>
+<text x="280" y="999" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="31" y1="1005" x2="284" y2="1005" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="1005" width="253" height="20" fill="#FAEDE5"/>
+<text x="36" y="1019" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">num_transacciones</text>
+<text x="280" y="1019" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="31" y1="1025" x2="284" y2="1025" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="1025" width="253" height="20" fill="#FCF6F2"/>
+<text x="36" y="1039" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">num_cancelaciones</text>
+<text x="280" y="1039" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="31" y1="1045" x2="284" y2="1045" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="1045" width="253" height="20" fill="#FAEDE5"/>
+<text x="36" y="1059" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">fondo_inicial</text>
+<text x="280" y="1059" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="31" y1="1065" x2="284" y2="1065" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="1065" width="253" height="20" fill="#FCF6F2"/>
+<text x="36" y="1079" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">efectivo_esperado</text>
+<text x="280" y="1079" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="31" y1="1085" x2="284" y2="1085" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="1085" width="253" height="20" fill="#FAEDE5"/>
+<text x="36" y="1099" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">efectivo_declarado</text>
+<text x="280" y="1099" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="31" y1="1105" x2="284" y2="1105" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="1105" width="253" height="20" fill="#FCF6F2"/>
+<text x="36" y="1119" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">diferencia</text>
+<text x="280" y="1119" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="31" y1="1125" x2="284" y2="1125" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="31" y="1125" width="253" height="20" rx="4" fill="#FAEDE5"/>
+<text x="36" y="1139" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">observaciones</text>
+<text x="280" y="1139" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<rect x="334" y="779" width="255" height="250" rx="5" fill="rgba(0,0,0,0.10)"/>
+<rect x="330" y="775" width="255" height="250" rx="5" fill="white" stroke="#27AE60" stroke-width="1.5"/>
+<rect x="330" y="775" width="255" height="30" rx="5" fill="#27AE60"/>
+<rect x="330" y="800" width="255" height="5" fill="#27AE60"/>
+<text x="457.5" y="795.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">movimientos_inventario</text>
+<rect x="331" y="805" width="253" height="20" fill="#E9F6EF"/>
+<rect x="555" y="808" width="24" height="13" rx="3" fill="#F39C12"/>
+<text x="567" y="818" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">PK</text>
+<text x="336" y="819" font-family="Consolas, 'Courier New', monospace" font-size="10" font-weight="bold" fill="#2C3E50">id_movimiento</text>
+<text x="551" y="819" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="331" y1="825" x2="584" y2="825" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="825" width="253" height="20" fill="#F4FAF7"/>
+<rect x="555" y="828" width="24" height="13" rx="3" fill="#E74C3C"/>
+<text x="567" y="838" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">FK</text>
+<text x="336" y="839" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">id_producto</text>
+<text x="551" y="839" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="331" y1="845" x2="584" y2="845" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="845" width="253" height="20" fill="#E9F6EF"/>
+<rect x="555" y="848" width="24" height="13" rx="3" fill="#E74C3C"/>
+<text x="567" y="858" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">FK</text>
+<text x="336" y="859" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">id_usuario</text>
+<text x="551" y="859" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="331" y1="865" x2="584" y2="865" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="865" width="253" height="20" fill="#F4FAF7"/>
+<rect x="555" y="868" width="24" height="13" rx="3" fill="#E74C3C"/>
+<text x="567" y="878" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">FK</text>
+<text x="336" y="879" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">id_venta</text>
+<text x="551" y="879" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="331" y1="885" x2="584" y2="885" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="885" width="253" height="20" fill="#E9F6EF"/>
+<text x="336" y="899" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">tipo</text>
+<text x="580" y="899" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="331" y1="905" x2="584" y2="905" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="905" width="253" height="20" fill="#F4FAF7"/>
+<text x="336" y="919" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">cantidad</text>
+<text x="580" y="919" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="331" y1="925" x2="584" y2="925" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="925" width="253" height="20" fill="#E9F6EF"/>
+<text x="336" y="939" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">costo_unitario</text>
+<text x="580" y="939" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">REAL</text>
+<line x1="331" y1="945" x2="584" y2="945" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="945" width="253" height="20" fill="#F4FAF7"/>
+<text x="336" y="959" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">stock_anterior</text>
+<text x="580" y="959" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="331" y1="965" x2="584" y2="965" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="965" width="253" height="20" fill="#E9F6EF"/>
+<text x="336" y="979" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">stock_posterior</text>
+<text x="580" y="979" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="331" y1="985" x2="584" y2="985" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="985" width="253" height="20" fill="#F4FAF7"/>
+<text x="336" y="999" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">motivo</text>
+<text x="580" y="999" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="331" y1="1005" x2="584" y2="1005" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="331" y="1005" width="253" height="20" rx="4" fill="#E9F6EF"/>
+<text x="336" y="1019" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">fecha_hora</text>
+<text x="580" y="1019" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<rect x="934" y="779" width="255" height="170" rx="5" fill="rgba(0,0,0,0.10)"/>
+<rect x="930" y="775" width="255" height="170" rx="5" fill="white" stroke="#7F8C8D" stroke-width="1.5"/>
+<rect x="930" y="775" width="255" height="30" rx="5" fill="#7F8C8D"/>
+<rect x="930" y="800" width="255" height="5" fill="#7F8C8D"/>
+<text x="1057.5" y="795.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">log_auditoria</text>
+<rect x="931" y="805" width="253" height="20" fill="#F2F3F3"/>
+<rect x="1155" y="808" width="24" height="13" rx="3" fill="#F39C12"/>
+<text x="1167" y="818" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">PK</text>
+<text x="936" y="819" font-family="Consolas, 'Courier New', monospace" font-size="10" font-weight="bold" fill="#2C3E50">id_log</text>
+<text x="1151" y="819" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="931" y1="825" x2="1184" y2="825" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="931" y="825" width="253" height="20" fill="#F8F9F9"/>
+<rect x="1155" y="828" width="24" height="13" rx="3" fill="#E74C3C"/>
+<text x="1167" y="838" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">FK</text>
+<text x="936" y="839" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">id_usuario</text>
+<text x="1151" y="839" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="931" y1="845" x2="1184" y2="845" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="931" y="845" width="253" height="20" fill="#F2F3F3"/>
+<text x="936" y="859" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">accion</text>
+<text x="1180" y="859" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="931" y1="865" x2="1184" y2="865" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="931" y="865" width="253" height="20" fill="#F8F9F9"/>
+<text x="936" y="879" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">descripcion</text>
+<text x="1180" y="879" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="931" y1="885" x2="1184" y2="885" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="931" y="885" width="253" height="20" fill="#F2F3F3"/>
+<text x="936" y="899" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">tabla_afectada</text>
+<text x="1180" y="899" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+<line x1="931" y1="905" x2="1184" y2="905" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="931" y="905" width="253" height="20" fill="#F8F9F9"/>
+<text x="936" y="919" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">id_registro</text>
+<text x="1180" y="919" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">INTEGER</text>
+<line x1="931" y1="925" x2="1184" y2="925" stroke="#E8EAED" stroke-width="0.5"/>
+<rect x="931" y="925" width="253" height="20" rx="4" fill="#F2F3F3"/>
+<text x="936" y="939" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#2C3E50">fecha_hora</text>
+<text x="1180" y="939" font-family="Consolas, 'Courier New', monospace" font-size="9" fill="#AAB7B8" text-anchor="end">TEXT</text>
+</g>
+<rect x="30" y="1197" width="385" height="34" rx="5" fill="white" stroke="#BDC3C7" stroke-width="1"/>
+<text x="38" y="1211" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#2C3E50">Leyenda:</text>
+<rect x="88" y="1201" width="24" height="15" rx="3" fill="#F39C12"/>
+<text x="100" y="1211" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">PK</text>
+<text x="116" y="1212" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#2C3E50">Clave Primaria</text>
+<rect x="198" y="1201" width="24" height="15" rx="3" fill="#E74C3C"/>
+<text x="210" y="1211" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">FK</text>
+<text x="226" y="1212" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#2C3E50">Clave Foránea</text>
+<rect x="308" y="1201" width="24" height="15" rx="3" fill="#3498DB"/>
+<text x="320" y="1211" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="white" text-anchor="middle">UK</text>
+<text x="336" y="1212" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#2C3E50">Único</text>
+<text x="1525" y="1235" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#95A5A6" text-anchor="end">v1.0 · 2026-06-29</text>
+</svg>

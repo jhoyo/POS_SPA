@@ -1,0 +1,25 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (nunca versionar secretos reales)
+.env
+.env.local
+*.env
+!.env.example
+!*.env.example
+
+# Builds
+dist/
+build/
+
+# Paquetes de entrega / artefactos temporales
+*.zip
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+desktop.ini
